@@ -1,6 +1,6 @@
 import express from "express";
 
-import {getRoutines, createRoutine, deleteRoutine} from "../controllers/routines.js"
+import {getRoutines, createRoutine} from "../controllers/routines.js"
 
 const router = express.Router();
 
