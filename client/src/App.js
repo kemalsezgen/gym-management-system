@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
 
-const App = () => {
-    return (
-        <div>
-            <h1>hey</h1>
-        </div>
-    )
+import Form from "./components/Form";
+import Routines from "./components/Routines";
+
+function App() {
+  return (
+    <div>
+      <Routines />
+      <Form />
+    </div>
+  );
 }
 
 export default App;
