@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
-import Form from "./components/Form";
+import { getRoutines } from './actions/routines';
+import Form from "./components/Form/Form";
 import Routines from "./components/Routines";
 
 function App() {
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getRoutines());
+  }, [dispatch])
+
   return (
     <div>
       <Routines />
