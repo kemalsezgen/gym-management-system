@@ -20,12 +20,15 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
+    border: "1px red solid",
   },
   overlay: {
     position: 'absolute',
     top: '20px',
     left: '20px',
     color: 'white',
+    width: '80%',
+    border: "1px red solid"
   },
   overlay2: {
     position: 'absolute',

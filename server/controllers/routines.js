@@ -23,3 +23,12 @@ export const createRoutine = async (req, res) => {
         res.status(409).json({ message: error.message });
     }
 }
+/*
+export const deleteRoutine = async (req, res, id) => {
+    try {
+        const deletedRoutine = await RoutineMessage.findByIdAndDelete(id)
+    } catch (error) {
+        
+    }
+}
+*/

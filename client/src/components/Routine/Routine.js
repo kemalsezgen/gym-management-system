@@ -15,9 +15,9 @@ export default function Routine({ routine }) {
 
   return (
     <Card className={classes.card}>
-      <CardMedia className={classes.media} image={'https://img.a.transfermarkt.technology/portrait/big/28003-1631171950.jpg?lm=1'} title={routine.title} />
+      <CardMedia className={classes.media} image={'https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg'} title={routine.title} />
       <div className={classes.overlay}>
-        <Typography variant="h6">{routine.title}</Typography>
+        <Typography variant="h5">{routine.title}</Typography>
       </div>
       <div className={classes.overlay2}>
         <Button style={{ color: 'white' }} size="small"><MoreHorizIcon fontSize="medium" /></Button>
